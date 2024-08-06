@@ -70,7 +70,7 @@ export default function SignupForm() {
             </div>
           </div>
         </div>
-        <LoginButton />
+        {/* <LoginButton /> */}
       </div>
 
       <Link href="/login" className="flex flex-row gap-1 text-sm text-zinc-400">

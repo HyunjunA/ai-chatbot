@@ -70,7 +70,7 @@ export default function LoginForm() {
             </div>
           </div>
         </div>
-        <LoginButton />
+        {/* <LoginButton /> */}
       </div>
 
       <Link

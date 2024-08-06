@@ -12,6 +12,14 @@ export const metadata = {
 export default async function IndexPage() {
   const id = nanoid()
   const session = (await auth()) as Session
+  // let session = {
+  //   user: {
+  //     id: 'user-1',
+  //     name: 'Test User',
+  //     email: 'testuser@example.com',
+  //     image: 'https://example.com/avatar.jpg'
+  //   }
+  // }
   const missingKeys = await getMissingKeys()
 
   return (
