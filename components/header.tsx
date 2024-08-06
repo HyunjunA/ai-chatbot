@@ -18,15 +18,6 @@ import { Session } from '@/lib/types'
 
 async function UserOrLogin() {
   const session = (await auth()) as Session
-  // let session = {
-  //   user: {
-  //     id: 'user-1',
-  //     name: 'Test User',
-  //     email: 'testuser@example.com',
-  //     image: 'https://example.com/avatar.jpg'
-  //   }
-  // }
-
   return (
     <>
       {session?.user ? (
